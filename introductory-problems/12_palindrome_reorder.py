@@ -29,7 +29,6 @@ def solve(s):
         res[i] = res[j] = odd
         i += 1
         j -= 1
-    # print(res)
     pal = "".join(res)
     print(pal)
     return
